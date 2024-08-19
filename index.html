@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Declaración del tipo de documento, indicando que es HTML5 -->
+    <meta charset="UTF-8">
+    <!-- Especifica el juego de caracteres UTF-8 para soportar caracteres especiales -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura la ventana gráfica para que el diseño sea responsive -->
+    <title>Mi Portafolio</title>
+    <!-- Título de la página que aparecerá en la pestaña del navegador -->
+
+    <!-- Enlace a la hoja de estilos personalizada -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Enlace a la hoja de estilos de Bootstrap para usar su framework -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Inicio del cuerpo del documento -->
+    <header>
+        <!-- Encabezado de la página que contiene la barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Barra de navegación con clase de Bootstrap para el diseño -->
+            <a class="navbar-brand" href="index.html">Mi Portafolio</a>
+            <!-- Enlace a la página principal -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- Botón para colapsar/expandir la barra de navegación en dispositivos móviles -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Contenedor colapsable de la barra de navegación -->
+                <ul class="navbar-nav">
+                    <!-- Lista de elementos de navegación -->
+                    <li class="nav-item"><a class="nav-link" href="./pages/about.html">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/skills.html">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/projects.html">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/contact.html">Contacto</a></li>
+                    <!-- Cada elemento de la lista es un enlace a diferentes secciones del portafolio -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección principal del contenido del portafolio -->
+        <section>
+            <!-- Sección introductoria del portafolio -->
+            <h2>Bienvenido a mi Portafolio</h2><br><br>
+            <!-- Título de la sección con saltos de línea para espaciamiento -->
+            
+            <!-- Contenedor para la imagen de perfil -->
+            <div class="profile-image-container">
+                <img src="./images/profile.jpg" alt="Imagen de perfil" class="profile-image">
+            </div>
+            
+            <div style="text-align: justify; font-family: Arial, sans-serif;">
+                <!-- Contenedor para el texto justificado -->
+                <p>
+                    Como ingeniero de ejecución en computación e informática con más de 10 años de experiencia, he dedicado la mayor parte de mi carrera al ámbito educativo. Mi trayectoria se ha centrado en la formación y el desarrollo de futuros profesionales, combinando un profundo conocimiento técnico con habilidades pedagógicas avanzadas. Este enfoque me ha permitido no solo impartir conocimientos, sino también inspirar a mis estudiantes a aplicar la informática de manera creativa y eficiente.
+                </p>
+                <!-- Primer párrafo de la introducción -->
+                <p>
+                    A lo largo de mi carrera, he tenido la oportunidad de liderar proyectos académicos y colaborar en la implementación de nuevas tecnologías en entornos educativos. Mi experiencia abarca desde la programación y la administración de sistemas hasta la ciberseguridad, siempre con un énfasis en el aprendizaje continuo y la adaptación a las últimas tendencias del sector.
+                </p>
+                <!-- Segundo párrafo de la introducción -->
+                <p>
+                    Este portafolio recopila mis logros, habilidades y contribuciones significativas, tanto en la enseñanza como en la ingeniería informática. Mi objetivo es continuar creciendo profesionalmente en un entorno donde pueda aplicar mis conocimientos y seguir contribuyendo a la evolución tecnológica y educativa.
+                </p>
+                <!-- Tercer párrafo de la introducción -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Pie de página con derechos de autor -->
+        <p>&copy; 2024 Emanuel Friz</p>
+    </footer>
+
+    <!-- Enlaces a archivos JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Enlace a la librería jQuery para manejar eventos y manipular el DOM -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <!-- Enlace a Popper.js, necesario para algunas funcionalidades de Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Enlace al archivo JavaScript de Bootstrap para componentes interactivos -->
+</body>
+</html>
